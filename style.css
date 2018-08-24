@@ -1,0 +1,193 @@
+html, body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	margin-top: 150px;
+}
+
+header h1 small{
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+header h5{
+	margin: 20px auto 40px;
+}
+article h5{
+	color: #99a1a6;
+}
+section.search-container{
+	margin-bottom: 40px;
+}
+.has-search {
+	position: relative;	
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    top: 8px;
+}
+.has-search input{
+	padding: 25px;
+}
+.triangle1{
+	width: 0;
+	height: 0;
+	border: 0 solid transparent;
+	border-right-width: 200px;
+	border-left-width: 200px;
+	border-bottom: 210px solid #0b00b8;
+	position: absolute;
+	right: -80px;
+	bottom: 0;
+	z-index: 2;
+}
+.triangle2{
+	width: 0;
+	height: 0;
+	border: 0 solid transparent;
+	border-right-width: 150px;
+	border-left-width: 150px;
+	border-bottom: 150px solid #0b00b8;
+	position: absolute;
+	right: 230px;
+	bottom: 0;
+	z-index: 2;
+}
+.circle{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #f100d2;
+	position: absolute;
+	right: 230px;
+	top: 10px;
+	z-index: 1;
+}
+.discovery-card{
+	background: linear-gradient(#9900f2, #e36047);
+}
+.discovery-card .discovery-text{
+	position: absolute;
+    bottom: 0;
+    background: blue;
+    width: 40%;
+    z-index: 3;
+    color: #fff;
+}
+.card{
+	border-width: 0px;
+	background-color: #fff !important;
+	height: 220px;
+    border-radius: 10px;	
+    box-shadow: 1px 1px 10px 1px #f5f5f5;
+    overflow: hidden;
+    transition: all .5s;
+
+}
+.card:hover{
+	box-shadow: 1px 10px 25px 10px #f5f5f5;
+}
+.animated .card .card-body{
+	padding-top: 120px;
+	opacity: 1;
+	transition: all .5s;
+}
+.animated .card .card-body:hover{
+	padding-top: 0px;
+    top: -30px;
+    position: relative;
+    cursor: pointer;
+}
+.card .card-body h4{
+	margin-bottom: 20px;
+}
+.animated .card .card-body i{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+.animated .card .card-body.disabled:hover{
+	 cursor: not-allowed;
+}
+.animated .card .card-body:hover i{
+	opacity: 0;
+	transition: opacity 500ms;
+}
+.animated .card .card-body i.fa-thumbtack{
+	background-color: #da9f22;
+}
+.animated .card .card-body i.fa-bullhorn{
+	background-color: #45bd77;
+}
+.animated .card .card-body i.fa-heart{
+	background-color: #dd43c6;
+}
+.animated .card .card-body i.fa-code{
+	background-color: #d2d4d9;
+}
+.badge-success{
+	background-color: #75ca47;
+	float: right;
+	margin-right: 10px;
+	padding: 8px 10px;
+	font-size: 14px;
+	position: relative;
+	top: -20px;
+}
+.get-started .card .card-body:hover{
+	cursor: pointer;
+}
+.get-started .card .card-body i.fa-thumbtack{
+	background-color: #da9f22;
+}
+.get-started .card{
+	height: auto;
+}
+.get-started .card .card-body h4{
+	margin: 0;
+	vertical-align: middle;
+
+}
+.get-started .image-container{
+	width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 8px 6px;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 0;
+    transition: all .5s;
+    margin-right: 15px;
+}
+.get-started .image-container img{
+	max-width: 25px;
+	filter: invert(100%);
+}
+.get-started .image-container.sketch{
+	background-color: #da9f22;
+}
+.get-started .image-container.github{
+	background-color: #000;
+}
+.mt-4{
+	margin-top: 30px !important;
+}
